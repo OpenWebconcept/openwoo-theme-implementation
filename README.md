@@ -16,7 +16,7 @@ use OpenWOO\SubmissionHandler;
 
 ### Additional configuration
 
-Within the SubmissionHandler class, you'll find the isCorrectForm() method. This method ensures that a form has the CSS class 'openwoo', which is used to validate if the current form is intended for creating OpenWOO posts. So make sure you'll configure the css clas properly for the used form.
+Within the SubmissionHandler class, you'll find the isCorrectForm() method. This method ensures that a form has the CSS class 'openwoo', which is used to validate if the current form is intended for creating OpenWOO posts. So make sure you'll configure the css class properly for the used form.
 
 ```php
 private function isCorrectForm(): bool
