@@ -25,7 +25,7 @@ private function isCorrectForm(): bool
 }
 ```
 
-## Namepacing
+## Namespacing
 
 In the OpenWOO directory, namespacing is used to organize and autoload classes efficiently. While some organizations use Composer for this, you can achieve the same without Composer by manually including the files using an autoloader. The autoloader function can be placed in your functions.php file:
 
